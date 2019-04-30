@@ -1,0 +1,55 @@
+
+#config page optimized for Jekyll-seo-tag
+
+Company: 
+
+Street: 
+    City: 
+    State: 
+    Zip:
+    Country: 
+    Phone: 
+    Email: 
+    Hours: 
+    Logo: 
+
+title: 
+
+
+description: >- 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+Twitter: 
+   twitter_username: 
+   twitter_card: summary / summary_large_image
+   github_username:  
+
+Facebook: 
+    appid: 
+    admin: 
+    publisher: 
+
+social:
+  name: 
+  links:
+    - https://twitter.com/
+    - https://www.facebook.com/
+    - https://github.com/
+    - https://www.instagram.com/
+
+webmaster_verifications:
+    google: 
+        name: google-site-verification
+        content: 
+
+    bing: 
+        name: msvalidate
+        content: 
+        
+collections_dir: my_collections
+
+Plugins:
+  -Jekyll-seo-tag

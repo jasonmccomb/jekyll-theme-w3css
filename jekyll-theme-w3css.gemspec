@@ -7,13 +7,13 @@ Gem::Specification.new do |spec|
   spec.email         = ["5635121+jasonmccomb@users.noreply.github.com"]
 
   spec.summary       = "Use w3css to create a jekyll template."
-  spec.homepage      = "jasonmccomb.github.io"
+  spec.homepage      = "https://jasonmccomb.github.io/jekyll-theme-w3css/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
-  spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "bundler", "~> 2.0.1"
   spec.add_development_dependency "rake", "~> 12.0"
 end

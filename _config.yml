@@ -1,0 +1,45 @@
+# Company Info footer, cta contact pages, etc.
+Company: UNITED STUDIOS OF SELF DEFENSE FOSTER CITY CA
+Street: 1086 Foster City Blvd
+City: Foster City
+State: California
+Zip: 94404
+Country: United States of America
+Phone: (650) 577-9234
+Email: staff@ussdfc.com
+Hours: MON-FRI 2:00 PM- 8:00 PM SAT 9:00 AM - 1:00 PM"
+Logo: assets/img/logo.jpg
+title: Foster City Martial Arts | United Studios of Self Defense
+description: United Studios of Self Defense is the home of Foster City Martial Arts and Self Defense Instruction since 1994! We invite you to experience Shaolin Kempo style self-defense training.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://ussdfostercity.com" # the base hostname & protocol for your site, e.g. http://example.com
+publisher: United Studios of Self Defense, Foster City, CA
+Twitter: 
+   twitter_username: ussdfc
+   twitter_card: summary_large_image
+   github_username:  jasonmccomb
+Facebook: 
+    appid: 1009237372421493
+    admin: jcm@jcmmarketing.com
+    publisher: United Studios of Self Defense Foster City
+social:
+  name: United Studios of Self Defense Foster City
+  links:
+    - https://twitter.com/ussdfc
+    - https://www.facebook.com/ussdfostercity
+    - https://github.com/jasonmccomb
+    - https://www.instagram.com/explore/tags/ussdfostercity/
+    - https://www.youtube.com/channel/UCYXirK8_u6s-OUdOb00JwBg
+webmaster_verifications:
+    google: 
+        name: google-site-verification
+        content: _vPc3j5PyjlgdKZtW4xUW4ggcJRcdxhS33gL8V6oMU0
+        google-analytics: UA-44601685-1
+    bing: 
+        name: msvalidate.01
+        content: 5B2110193466E6C63EC54818C693A8E9     
+collections_dir: my_collections
+Plugins:
+  -Jekyll-seo-tag
+  
+ 

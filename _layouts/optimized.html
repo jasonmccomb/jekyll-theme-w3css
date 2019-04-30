@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<title>{{page.title}}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />       
+<link rel="shortcut icon" href="/favicon.png" />
+<link rel="apple-touch-icon" href="#" />
+<link rel="canonical" href="{{site.url}}" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="google-site-verification" content="_vPc3j5PyjlgdKZtW4xUW4ggcJRcdxhS33gL8V6oMU0" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44601685-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-44601685-1');
+</script>
+
+<meta name="title" content="{{page.title}}" />
+<meta name="description" content="{{page.description}}" />
+<meta name="robots" content="index, follow" />
+<meta name="publisher" content="{{ProfileSettings.Company}}" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ussdfc">
+<meta name="twitter:creator" content="@justcallme4help">
+<meta name="twitter:title" content="{{page.title}}">
+<meta name="twitter:description" content="{{page.description}}">
+<meta name="twitter:image" content="{{page.twimage}}">
+<meta property="og:url" content="{{site.url}}" />
+<meta property="fb:app_id" content="1009237372421493" />
+<meta property="og:image" content="{{page.ogimage}}" />
+<meta property="og:image:alt" content="{{page.title}}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{page.title}}" />
+<meta property="og:description" content="{{page.description}}" />
+<meta property="og:locale" content="en-us" />
+
+ {%- include includes/w3.css -%}
+    
+<body class="w3-light-grey" id="myPage">
+    <div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1009237372421493',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    <div class="w3-wrapper">
+   
+    
+    {% include includes/nav.html -%}
+
+	{{ content }}
+
+    {% include includes/footer.html -%}
+   
+   
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    </div>
+     
+</body>
+</html>
